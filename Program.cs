@@ -80,8 +80,8 @@ namespace IngameScript
             // can be removed if not needed.
 
             String textToecho;
-            textToecho = "Hello World";
-            Echo("textToecho");
+            textToecho = "Hello World I love C#";
+            Echo(textToecho);
             List<IMyTerminalBlock> gridlist = new List<IMyTerminalBlock>();
             GridTerminalSystem.GetBlocksOfType<IMyTextPanel>(gridlist);
             foreach (IMyTextPanel textPanel in gridlist) {
